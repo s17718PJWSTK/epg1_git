@@ -1,0 +1,8 @@
+git clone https://github.com/s17718PJWSTK/epg1_git epg1_git
+git branch s17718
+git branch rebase-me
+git rebase s17718 rebase-me
+git checkout s17718
+git merge --ff-only rebase-me
+git branch merge-me
+git merge merge-me
